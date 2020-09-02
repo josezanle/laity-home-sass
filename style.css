@@ -15,7 +15,6 @@
       -ms-flex-flow: row;
           flex-flow: row;
   padding: 2em;
-  background: rgba(192, 237, 255, 0.459);
 }
 
 .menu .logo {
