@@ -1,0 +1,21 @@
+
+@import './menu';
+@import './main';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+// con @mixin flex-center declaramos la variable para centrar todo contenido que lo incluya.
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+// body
+body{
+    width: 100vw;
+    height: 100vh;
+}
